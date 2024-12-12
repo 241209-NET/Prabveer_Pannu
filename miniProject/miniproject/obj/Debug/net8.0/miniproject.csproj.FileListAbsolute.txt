@@ -1,0 +1,15 @@
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\bin\Debug\net8.0\miniproject.exe
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\bin\Debug\net8.0\miniproject.deps.json
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\bin\Debug\net8.0\miniproject.runtimeconfig.json
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\bin\Debug\net8.0\miniproject.dll
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\bin\Debug\net8.0\miniproject.pdb
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.AssemblyInfoInputs.cache
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.AssemblyInfo.cs
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.csproj.CoreCompileInputs.cache
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.sourcelink.json
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.dll
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\refint\miniproject.dll
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.pdb
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\miniproject.genruntimeconfig.cache
+C:\Users\pprab\OneDrive\Documents\Prabveer_Pannu\miniProject\miniproject\obj\Debug\net8.0\ref\miniproject.dll
