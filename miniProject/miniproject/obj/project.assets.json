@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pprab\\OneDrive\\Documents\\Prabveer_Pannu\\miniProject\\miniproject\\miniproject.csproj",
+      "projectUniqueName": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\miniProject\\miniproject\\miniproject.csproj",
       "projectName": "miniproject",
-      "projectPath": "C:\\Users\\pprab\\OneDrive\\Documents\\Prabveer_Pannu\\miniProject\\miniproject\\miniproject.csproj",
+      "projectPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\miniProject\\miniproject\\miniproject.csproj",
       "packagesPath": "C:\\Users\\pprab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pprab\\OneDrive\\Documents\\Prabveer_Pannu\\miniProject\\miniproject\\obj\\",
+      "outputPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\miniProject\\miniproject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pprab\\AppData\\Roaming\\NuGet\\NuGet.Config"
