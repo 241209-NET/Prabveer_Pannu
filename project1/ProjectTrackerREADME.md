@@ -1,6 +1,6 @@
 # Project Tracker
 
-This is a Full Stack Web App made in .NET to help users build and persist their Pokemon teams to a backend. 
+This is a Full Stack Web App made in .NET to help users build and persist their Project teams to a backend. 
 
 ## Project Members
 - Prabveer Pannu
