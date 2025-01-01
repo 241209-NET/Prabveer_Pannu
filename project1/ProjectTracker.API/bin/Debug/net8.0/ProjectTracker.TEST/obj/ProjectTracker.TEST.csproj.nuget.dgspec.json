@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj": {}
+    "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.TEST\\ProjectTracker.TEST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj": {
+    "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.TEST\\ProjectTracker.TEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj",
-        "projectName": "ProjectTracker.API",
-        "projectPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj",
+        "projectUniqueName": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.TEST\\ProjectTracker.TEST.csproj",
+        "projectName": "ProjectTracker.TEST",
+        "projectPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.TEST\\ProjectTracker.TEST.csproj",
         "packagesPath": "C:\\Users\\pprab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\obj\\",
+        "outputPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.TEST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pprab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,33 +43,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[17.8.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "coverlet.collector": {
               "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.0.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.9.2, )"
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
             }
           },
           "imports": [
@@ -84,9 +72,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

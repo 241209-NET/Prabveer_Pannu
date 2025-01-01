@@ -168,3 +168,9 @@ C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\obj\D
 C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\obj\Debug\net8.0\ProjectTracker.API.pdb
 C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\obj\Debug\net8.0\ProjectTracker.API.genruntimeconfig.cache
 C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\obj\Debug\net8.0\ref\ProjectTracker.API.dll
+C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\bin\Debug\net8.0\ProjectTracker.TEST\obj\project.assets.json
+C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\bin\Debug\net8.0\ProjectTracker.TEST\obj\ProjectTracker.TEST.csproj.nuget.dgspec.json
+C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\bin\Debug\net8.0\xunit.core.dll
+C:\Users\pprab\OneDrive\Desktop\Prabveer_Pannu\project1\ProjectTracker.API\bin\Debug\net8.0\xunit.execution.dotnet.dll
