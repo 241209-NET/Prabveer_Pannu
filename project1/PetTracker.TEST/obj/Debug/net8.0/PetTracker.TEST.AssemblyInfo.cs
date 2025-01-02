@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetTracker.TEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d4ec34e44d3aee1c301d2a1306f428d659727ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef8329313534662881745ebebbf0552aa2093266")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetTracker.TEST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetTracker.TEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
