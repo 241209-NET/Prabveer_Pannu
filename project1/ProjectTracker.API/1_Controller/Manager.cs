@@ -8,42 +8,42 @@ namespace PetTracker.API.Controller;
 [ApiController]
 public class ManagerController : ControllerBase
 {   
-    private readonly IPetService _petService;
+    private readonly IManagerService _ManagerService;
 
-    public  ManagerController(IPetService petService)
+    public  ManagerController(IManagerService ManagerService)
     {
-        _petService = petService;
+        _ManagerService = ManagerService;
     }
 
     [HttpGet]
-    public IActionResult GetAllPets()
+    public IActionResult GetAllManagers()
     {
-        var petList = _petService.GetAllPets();        
-        return Ok(petList);
+        var ManagerList = _ManagerService.GetAllManagers();        
+        return Ok(ManagerList);
     }
 
     [HttpPost]
-    public IActionResult CreateNewPet(Pet newPet)
+    public IActionResult CreateNewManager(Manager newManager)
     {
-        var pet = _petService.CreateNewPet(newPet);
-        return Ok(pet);
+        var Manager = _ManagerService.CreateNewManager(newManager);
+        return Ok(Manager);
     }
      [HttpGet("id")]
-     public IActionResult GetPetById(int id)
+     public IActionResult GetManagerById(int id)
      {
-        var Pet = _petService.GetPetById(id);
+        var Manager = _ManagerService.GetManagerById(id);
 
-        if(Pet is null) return NotFound();
-        return Ok(Pet);
+        if(Manager is null) return NotFound();
+        return Ok(Manager);
      }
 
     [HttpDelete]
-    public IActionResult DeletePet(int id)
+    public IActionResult DeleteManager(int id)
     {
-        var deletePet = _petService.DeletePetById(id);
+        var deleteManager = _ManagerService.DeleteManagerById(id);
 
-        if(deletePet is null) return NotFound();
-        return Ok(deletePet);
+        if(deleteManager is null) return NotFound();
+        return Ok(deleteManager);
     }
 
 }

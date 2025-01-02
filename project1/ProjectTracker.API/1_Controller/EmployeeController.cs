@@ -8,42 +8,42 @@ namespace PetTracker.API.Controller;
 [ApiController]
 public class EmployeeController : ControllerBase
 {   
-    private readonly IPetService _petService;
+    private readonly IEmployeeService _EmployeeService;
 
-    public EmployeeController(IPetService petService)
+    public EmployeeController(IEmployeeService EmployeeService)
     {
-        _petService = petService;
+        _EmployeeService = EmployeeService;
     }
 
     [HttpGet]
-    public IActionResult GetAllPets()
+    public IActionResult GetAllEmployees()
     {
-        var petList = _petService.GetAllPets();        
-        return Ok(petList);
+        var EmployeeList = _EmployeeService.GetAllEmployees();        
+        return Ok(EmployeeList);
     }
 
     [HttpPost]
-    public IActionResult CreateNewPet(Pet newPet)
+    public IActionResult CreateNewEmployee(Employee newEmployee)
     {
-        var pet = _petService.CreateNewPet(newPet);
-        return Ok(pet);
+        var Employee = _EmployeeService.CreateNewEmployee(newEmployee);
+        return Ok(Employee);
     }
      [HttpGet("id")]
-     public IActionResult GetPetById(int id)
+     public IActionResult GetEmployeeById(int id)
      {
-        var Pet = _petService.GetPetById(id);
+        var Employee = _EmployeeService.GetEmployeeById(id);
 
-        if(Pet is null) return NotFound();
-        return Ok(Pet);
+        if(Employee is null) return NotFound();
+        return Ok(Employee);
      }
 
     [HttpDelete]
-    public IActionResult DeletePet(int id)
+    public IActionResult DeleteEmployee(int id)
     {
-        var deletePet = _petService.DeletePetById(id);
+        var deleteEmployee = _EmployeeService.DeleteEmployeeById(id);
 
-        if(deletePet is null) return NotFound();
-        return Ok(deletePet);
+        if(deleteEmployee is null) return NotFound();
+        return Ok(deleteEmployee);
     }
 
 }
