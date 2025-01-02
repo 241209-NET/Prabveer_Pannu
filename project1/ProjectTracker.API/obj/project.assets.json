@@ -5414,11 +5414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj",
+      "projectUniqueName": "C:\\Users\\pprab\\OneDrive\\Desktop\\New folder\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj",
       "projectName": "ProjectTracker.API",
-      "projectPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj",
+      "projectPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\New folder\\Prabveer_Pannu\\project1\\ProjectTracker.API\\ProjectTracker.API.csproj",
       "packagesPath": "C:\\Users\\pprab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\Prabveer_Pannu\\project1\\ProjectTracker.API\\obj\\",
+      "outputPath": "C:\\Users\\pprab\\OneDrive\\Desktop\\New folder\\Prabveer_Pannu\\project1\\ProjectTracker.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pprab\\AppData\\Roaming\\NuGet\\NuGet.Config"

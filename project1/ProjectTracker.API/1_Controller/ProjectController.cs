@@ -6,11 +6,11 @@ namespace PetTracker.API.Controller;
 
 [Route("api/[controller]")]
 [ApiController]
-public class PetController : ControllerBase
+public class ProjectController : ControllerBase
 {   
     private readonly IPetService _petService;
 
-    public PetController(IPetService petService)
+    public ProjectController(IPetService petService)
     {
         _petService = petService;
     }
