@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTracker.API", "ProjectTracker.API\ProjectTracker.API.csproj", "{B7331FCE-E081-4F8F-AEBB-9AEA6FE23261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracker.TEST", "PetTracker.TEST\PetTracker.TEST.csproj", "{8E8ECE17-E361-4CFC-96B2-26F8618E351A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7331FCE-E081-4F8F-AEBB-9AEA6FE23261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7331FCE-E081-4F8F-AEBB-9AEA6FE23261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7331FCE-E081-4F8F-AEBB-9AEA6FE23261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7331FCE-E081-4F8F-AEBB-9AEA6FE23261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8ECE17-E361-4CFC-96B2-26F8618E351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8ECE17-E361-4CFC-96B2-26F8618E351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8ECE17-E361-4CFC-96B2-26F8618E351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8ECE17-E361-4CFC-96B2-26F8618E351A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
