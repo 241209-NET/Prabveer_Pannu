@@ -25,11 +25,17 @@ public class PetRepository : IPetRepository
 
     public Pet? GetPetById(int id)
     {
-        throw new NotImplementedException();
+        return _petContext.Pets.FirstOrDefault(p => p.Id ==id);
     }
-
+    public void DeletePetById(int id)
+    {
+        var pet = GetPetById(id);
+        _petContext.Pets.Remove(pet!);
+        _petContext.SaveChanges();
+    }
     public IEnumerable<Pet> GetPetByName(string name)
     {
         throw new NotImplementedException();
     }
+
 }

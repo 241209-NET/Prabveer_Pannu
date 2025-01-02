@@ -10,4 +10,5 @@ public partial class PetContext : DbContext
 
     public virtual DbSet<Pet> Pets { get; set; }
     public virtual DbSet<Employee> Employee { get; set; }
+    public virtual DbSet<Manager> Manager { get; set; }
 }

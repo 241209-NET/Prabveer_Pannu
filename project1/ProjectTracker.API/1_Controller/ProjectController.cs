@@ -28,16 +28,22 @@ public class ProjectController : ControllerBase
         var pet = _petService.CreateNewPet(newPet);
         return Ok(pet);
     }
+     [HttpGet("id")]
+     public IActionResult GetPetById(int id)
+     {
+        var Pet = _petService.GetPetById(id);
+
+        if(Pet is null) return NotFound();
+        return Ok(Pet);
+     }
 
     [HttpDelete]
-    public IActionResult DeletePet(string name)
+    public IActionResult DeletePet(int id)
     {
-        throw new NotImplementedException();
+        var deletePet = _petService.DeletePetById(id);
+
+        if(deletePet is null) return NotFound();
+        return Ok(deletePet);
     }
 
-    // [HttpDelete]
-    // public IActionResult DeletePet(int id)
-    // {
-
-    // }
 }

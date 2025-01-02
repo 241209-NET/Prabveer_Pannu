@@ -8,5 +8,6 @@ public interface IPetRepository
     Pet CreateNewPet(Pet newPet); 
     IEnumerable<Pet> GetAllPets(); 
     Pet? GetPetById(int id); 
-    IEnumerable<Pet> GetPetByName(string name);    
+    IEnumerable<Pet> GetPetByName(string name);
+    void DeletePetById(int id);
 }

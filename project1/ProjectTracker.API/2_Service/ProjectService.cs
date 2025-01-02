@@ -21,9 +21,16 @@ public class PetService : IPetService
 
     public Pet? GetPetById(int id)
     {
-        throw new NotImplementedException();
+        if(id < 1)
+            return null;
+        return _petRepository.GetPetById(id);
     }
-
+    public Pet? DeletePetById(int id)
+    {
+        var pet = GetPetById(id);
+        if(pet is not null) _petRepository.DeletePetById(id);
+        return pet;
+    }
     public IEnumerable<Pet> GetPetByName(string name)
     {
         throw new NotImplementedException();
